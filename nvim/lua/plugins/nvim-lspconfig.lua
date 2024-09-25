@@ -24,6 +24,7 @@ return {
         sqlls = {},
         jdtls = {},
         tsserver = {},
+        zls = {},
       },
     },
   },

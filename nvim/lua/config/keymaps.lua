@@ -37,7 +37,7 @@ map("n", "<leader>w", "<cmd>w<cr>", { desc = "Save" })
 -- quit
 map("n", "<leader>q", "<cmd>qa<cr>", { desc = "Quit" })
 
--- base64
+-- -- base64
 map("v", "<leader>be", "<cmd>B64Encode<cr>")
 
-map("v", "<leader>bd", "<cmd>B64Decode<cr>")
+map("v", "<leader>br", "<cmd>B64Decode<cr>")

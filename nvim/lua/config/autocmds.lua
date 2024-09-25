@@ -9,9 +9,7 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
   end,
 })
 
--- vim.api.nvim_create_autocmd({ "BufWritePre" }, {
---   pattern = { ".go" },
---   callback = function()
---     require("fatih/vim-go").GoImports()
---   end,
--- })
+vim.api.nvim_create_autocmd({ "BufWritePre" }, {
+  pattern = "",
+  command = ":%s/\\s\\+$//e",
+})

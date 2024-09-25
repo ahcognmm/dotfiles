@@ -1,3 +1,5 @@
 return {
-  { "taybart/b64.nvim" },
+  {
+    "taybart/b64.nvim",
+  },
 }

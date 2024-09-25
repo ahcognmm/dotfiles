@@ -15,6 +15,8 @@ return {
         "stylua",
         "tflint",
         "xmlformatter",
+        "eslint-lsp",
+        "zls",
       },
     },
   },
